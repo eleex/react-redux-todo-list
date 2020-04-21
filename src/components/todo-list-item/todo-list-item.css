@@ -1,0 +1,23 @@
+.todo-list-item-label {
+  font-size: 20px;
+  line-height: 36px;
+  user-select: none;
+}
+
+.todo-list-item-label:hover{
+  cursor: pointer;
+}
+
+.todo-list-item button {
+  height: 36px;
+  width: 36px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.important {
+  font-weight: 700;
+  color: rgb(0, 78, 129);
+}
